@@ -1,0 +1,21 @@
+p{
+    text-align: center;
+}
+
+.pokemon{
+    padding: 10%
+}
+
+.keystone{
+    height: 80px;
+    width: 80px;
+}
+
+.centering{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    border-radius: 10px;
+}
