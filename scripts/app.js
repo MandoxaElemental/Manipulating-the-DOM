@@ -1,3 +1,4 @@
+let VenusaurDefault = document.getElementById('venusaur-default');
 let Venusaurite = document.getElementById('venusaurite');
 let VenusaurCard = document.getElementById('VenusaurCard');
 let VenusaurGmax = document.getElementById('gigantamax-venusaur');
@@ -7,6 +8,7 @@ let VenusaurMoveDesc = document.getElementById('MoveDescV');
 let VenusaurZ = document.getElementById('GrassZ');
 let VenusaurTera = document.getElementById('TeraGround');
 
+let CharizardDefault = document.getElementById('charizard-default');
 let CharizarditeX = document.getElementById('charizarditeX');
 let CharizarditeY = document.getElementById('charizarditeY');
 let CharizardCard = document.getElementById('CharizardCard');
@@ -17,6 +19,7 @@ let CharizardMoveDesc = document.getElementById('MoveDescC');
 let CharizardZ = document.getElementById('FireZ');
 let CharizardTera = document.getElementById('TeraDragon');
 
+let BlastoiseDefault = document.getElementById('blastoise-default');
 let Blastoisinite = document.getElementById('blastoisinite');
 let BlastoiseCard = document.getElementById('BlastoiseCard');
 let BlastoiseGmax = document.getElementById('gigantamax-blastoise');
@@ -27,6 +30,7 @@ let BlastoiseZ = document.getElementById('WaterZ');
 let BlastoiseTera = document.getElementById('TeraSteel');
 
 // -- Venusaur --
+
 Venusaurite.addEventListener('click', function(e){
     document.getElementById('VenusaurCard');
     VenusaurCard.className = "pulse";
@@ -48,6 +52,7 @@ VenusaurGmax.addEventListener('click', function(e){
 });
 VenusaurZ.addEventListener('click', function(e){
     document.getElementById('VenusaurCard');
+    VenusaurCard.className = "pulse";
     VenusaurZ.className = "pulse";
     document.getElementById('VenusaurCard').src="../assets/Venusaur.png";
     VenusaurAbility.innerText = "Ability: Chlorophyll";

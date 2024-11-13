@@ -1,5 +1,20 @@
+@font-face {
+    font-family: Kabel;
+    src: url(/assets/fonts/Kabel\ Ultra\ BT.ttf);
+}
+
+body{
+    background-image: url(/assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 p{
     text-align: center;
+}
+
+h5{
+    font-family: Kabel;
 }
 
 .pokemon{
@@ -18,4 +33,32 @@ p{
 
 img{
     border-radius: 10px;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.498);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.grass-bg{
+background-image: url(/assets/GrassBG.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.fire-bg{
+    background-image: url(/assets/FireBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.water-bg{
+    background-image: url(/assets/WaterBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    padding-bottom: 10px;
 }
