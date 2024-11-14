@@ -1,4 +1,4 @@
-# Cookware Website
+# Manipulating the DOM
 
 ### Gianpaolo Reinares
 ### 11/14/2024
