@@ -17,6 +17,13 @@ h5{
     font-family: Kabel;
 }
 
+.card-title{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.498);
+    border-radius: 100px;
+}
+
 .generations{
     font-family: Kabel;
     font-size: 20px;
@@ -47,6 +54,11 @@ img{
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
+}
+
+.dex{
+    font-family: Kabel;
+    padding: 10px;
 }
 
 .grass-bg{
