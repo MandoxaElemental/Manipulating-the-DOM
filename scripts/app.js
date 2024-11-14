@@ -451,7 +451,7 @@ BlastoiseGmax.addEventListener('click', function(e){
 BlastoiseZ.addEventListener('click', function(e){
     document.getElementById('BlastoiseCard');
     BlastoiseCard.className = "pulse";
-    BlastoiseZ.className = "shake";
+    BlastoiseZ.className = "pulse";
     document.getElementById('BlastoiseCard').src="../assets/Blastoise.png";
     BlastoiseDex.innerText = blastoiseDex[6];
     BlastoiseAbility.innerText = "Ability: Rain Dish";
