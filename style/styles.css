@@ -17,6 +17,13 @@ h5{
     font-family: Kabel;
 }
 
+.generations{
+    font-family: Kabel;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
 .pokemon{
     padding: 10%
 }
