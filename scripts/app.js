@@ -206,6 +206,7 @@ let barrelRoll = document.getElementById('dabrBtn');
         CharizardCard.className = "barrelRoll"
         BlastoiseCard.className = "barrelRoll"
         barrelRoll.innerText = "Disabled";
+        barrelRoll.className = 'disabled'
     })
 
 let funBtn = document.getElementById('funBTN')
@@ -251,7 +252,7 @@ VenusaurGmax.addEventListener('click', function(e){
 VenusaurZ.addEventListener('click', function(e){
     document.getElementById('VenusaurCard');
     VenusaurCard.className = "pulse";
-    VenusaurZ.className = "pulse";
+    VenusaurZ.className = "heartbeat";
     document.getElementById('VenusaurCard').src="../assets/Venusaur.png";
     VenusaurDex.innerText = venusaurDex[6];
     VenusaurAbility.innerText = "Ability: Chlorophyll";
@@ -397,7 +398,7 @@ CharizardGmax.addEventListener('click', function(e){
 CharizardZ.addEventListener('click', function(e){
     document.getElementById('CharizardCard');
     CharizardCard.className = "pulse";
-    CharizardZ.className = "pulse";
+    CharizardZ.className = "heartbeat";
     document.getElementById('CharizardCard').src="../assets/Charizard.png";
     CharizardDex.innerText = charizardDex[6];
     CharizardAbility.innerText = "Ability: Solar Power";
@@ -533,7 +534,7 @@ BlastoiseGmax.addEventListener('click', function(e){
 BlastoiseZ.addEventListener('click', function(e){
     document.getElementById('BlastoiseCard');
     BlastoiseCard.className = "pulse";
-    BlastoiseZ.className = "pulse";
+    BlastoiseZ.className = "heartbeat";
     document.getElementById('BlastoiseCard').src="../assets/Blastoise.png";
     BlastoiseDex.innerText = blastoiseDex[6];
     BlastoiseAbility.innerText = "Ability: Rain Dish";

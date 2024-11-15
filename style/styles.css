@@ -57,6 +57,10 @@ p{
     grid-template-columns: repeat(9, 1fr);
 }
 
+.disabled{
+    opacity: 50%;
+}
+
 .pokemon{
     padding: 10%
 }
