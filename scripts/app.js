@@ -135,6 +135,30 @@ let bGen7 = document.getElementById('gen7B');
 let bGen8 = document.getElementById('gen8B');
 let bGen9 = document.getElementById('gen9B');
 
+let pixilate = document.getElementById('turnBackBtn');
+let dex0001 = document.getElementById('0001');
+let dex0002 = document.getElementById('0002');
+let dex0003 = document.getElementById('0003');
+let dex0004 = document.getElementById('0004');
+let dex0005 = document.getElementById('0005');
+let dex0006 = document.getElementById('0006');
+let dex0007 = document.getElementById('0007');
+let dex0008 = document.getElementById('0008');
+let dex0009 = document.getElementById('0009');
+
+    pixilate.addEventListener('click', function(e){
+        document.getElementById('0001').src="../assets/0001pixel.png";
+        document.getElementById('0002').src="../assets/0002pixel.png";
+        document.getElementById('0003').src="../assets/0003pixel.png";
+        document.getElementById('0004').src="../assets/0004pixel.png";
+        document.getElementById('0005').src="../assets/0005pixel.png";
+        document.getElementById('0006').src="../assets/0006pixel.png";
+        document.getElementById('0007').src="../assets/0007pixel.png";
+        document.getElementById('0008').src="../assets/0008pixel.png";
+        document.getElementById('0009').src="../assets/0009pixel.png";
+    })
+
+
 // - Settings -
 let backgroundBtn = document.getElementById('backgroundBtn');
 let backgroundIMG = document.getElementById('background');
