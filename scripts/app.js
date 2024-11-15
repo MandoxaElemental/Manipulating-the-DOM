@@ -160,6 +160,13 @@ cardBtn.addEventListener('click', function(e){
     waterCard.className = 'water-bg '  + 'card ' + 'h-100';
 });
 
+let fontBtn = document.getElementById('fontBtn');
+let newFont = document.getElementById('font-change');
+
+fontBtn.addEventListener('click', function(e){
+    newFont.className = 'newfont';
+})
+
 
 
 // -- Venusaur --

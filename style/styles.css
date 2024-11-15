@@ -19,7 +19,7 @@ p{
     text-align: center;
 }
 
-h5{
+.newfont{
     font-family: Kabel;
 }
 
@@ -31,7 +31,6 @@ h5{
 }
 
 .generations{
-    font-family: Kabel;
     font-size: 20px;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -63,7 +62,6 @@ img{
 }
 
 .dex{
-    font-family: Kabel;
     padding: 10px;
 }
 
