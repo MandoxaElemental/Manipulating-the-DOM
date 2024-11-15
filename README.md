@@ -13,5 +13,5 @@
 [Manipulating the DOM GitHub Repository Link](https://github.com/MandoxaElemental/Manipulating-the-DOM)
 
 
-This has been Peer Reviewed By: 
-> Comments: 
+This has been Peer Reviewed By: Mason Quilon
+> Comments: I will say this is a very impressive interactable site even feeling like a game almost i like how you show the evolutions and added extra features i wouldnt change anything 👍
