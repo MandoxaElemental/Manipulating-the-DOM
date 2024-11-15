@@ -148,15 +148,80 @@ let dex0009 = document.getElementById('0009');
 
     pixilate.addEventListener('click', function(e){
         document.getElementById('0001').src="../assets/0001pixel.png";
+        dex0001.className = "rotateIn " + 'center-image';
         document.getElementById('0002').src="../assets/0002pixel.png";
+        dex0002.className = "rotateIn " + 'center-image';
         document.getElementById('0003').src="../assets/0003pixel.png";
+        dex0003.className = "rotateIn " + 'center-image';
         document.getElementById('0004').src="../assets/0004pixel.png";
+        dex0004.className = "rotateIn " + 'center-image';
         document.getElementById('0005').src="../assets/0005pixel.png";
+        dex0005.className = "rotateIn " + 'center-image';
         document.getElementById('0006').src="../assets/0006pixel.png";
+        dex0006.className = "rotateIn " + 'center-image';
         document.getElementById('0007').src="../assets/0007pixel.png";
+        dex0007.className = "rotateIn " + 'center-image';
         document.getElementById('0008').src="../assets/0008pixel.png";
+        dex0008.className = "rotateIn " + 'center-image';
         document.getElementById('0009').src="../assets/0009pixel.png";
+        dex0009.className = "rotateIn " + 'center-image';
+        pixilate.className = 'shake';
     })
+    dex0001.addEventListener('mouseover', function(e){
+        dex0001.className = 'shake ' + 'center-image';
+    });
+    dex0001.addEventListener('mouseout', function(e){
+        dex0001.className = 'center-image';
+    });
+    dex0002.addEventListener('mouseover', function(e){
+        dex0002.className = 'shake ' + 'center-image';
+    });
+    dex0002.addEventListener('mouseout', function(e){
+        dex0002.className = 'center-image';
+    });
+    dex0003.addEventListener('mouseover', function(e){
+        dex0003.className = 'shake ' + 'center-image';
+    });
+    dex0003.addEventListener('mouseout', function(e){
+        dex0003.className = 'center-image';
+    });
+    dex0004.addEventListener('mouseover', function(e){
+        dex0004.className = 'shake ' + 'center-image';
+    });
+    dex0004.addEventListener('mouseout', function(e){
+        dex0004.className = 'center-image';
+    });
+    dex0005.addEventListener('mouseover', function(e){
+        dex0005.className = 'shake ' + 'center-image';
+    });
+    dex0005.addEventListener('mouseout', function(e){
+        dex0005.className = 'center-image';
+    });
+    dex0006.addEventListener('mouseover', function(e){
+        dex0006.className = 'shake ' + 'center-image';
+    });
+    dex0006.addEventListener('mouseout', function(e){
+        dex0006.className = 'center-image';
+    });
+    dex0007.addEventListener('mouseover', function(e){
+        dex0007.className = 'shake ' + 'center-image';
+    });
+    dex0007.addEventListener('mouseout', function(e){
+        dex0007.className = 'center-image';
+    });
+    dex0008.addEventListener('mouseover', function(e){
+        dex0008.className = 'shake ' + 'center-image';
+    });
+    dex0008.addEventListener('mouseout', function(e){
+        dex0008.className = 'center-image';
+    });
+    dex0009.addEventListener('mouseover', function(e){
+        dex0009.className = 'shake ' + 'center-image';
+    });
+    dex0009.addEventListener('mouseout', function(e){
+        dex0009.className = 'center-image';
+    });
+
 
 
 // - Settings -
