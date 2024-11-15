@@ -4,9 +4,10 @@
 }
 
 .backgroundCSS{
-    background-image: url(/assets/bg.jpg);
+    background-image: url(/assets/normalbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center; 
 }
 .backgroundCSS2{
     background-image: url(/assets/max-raid-background.jpg);
@@ -105,4 +106,16 @@ background-position: center;
 }
 .card{
     padding-bottom: 10px;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    gap: 20px;
+}
+
+#tcgCard{
+    width: 100%;
+    height: auto;
 }
