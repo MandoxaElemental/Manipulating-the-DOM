@@ -136,7 +136,7 @@ let bGen8 = document.getElementById('gen8B');
 let bGen9 = document.getElementById('gen9B');
 
 // -- Venusaur --
-VenusaurDefault.addEventListener('click', function(e){
+VenusaurDefault.addEventListener('mouseover', function(e){
     document.getElementById('VenusaurCard');
     VenusaurCard.className = "pulse";
     document.getElementById('VenusaurCard').src="../assets/Venusaur.png";
@@ -272,7 +272,7 @@ vGen9.addEventListener('mouseover', function(e){
 });
 
 // -- Charizard --
-CharizardDefault.addEventListener('click', function(e){
+CharizardDefault.addEventListener('mouseover', function(e){
     document.getElementById('CharizardCard');
     CharizardCard.className = "pulse";
     document.getElementById('CharizardCard').src="../assets/Charizard.png";
@@ -418,7 +418,7 @@ cGen9.addEventListener('mouseover', function(e){
 
 
 // - Blastoise -
-BlastoiseDefault.addEventListener('click', function(e){
+BlastoiseDefault.addEventListener('mouseover', function(e){
     document.getElementById('BlastoiseCard');
     BlastoiseCard.className = "pulse";
     document.getElementById('BlastoiseCard').src="../assets/Blastoise.png";
