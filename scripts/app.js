@@ -135,6 +135,33 @@ let bGen7 = document.getElementById('gen7B');
 let bGen8 = document.getElementById('gen8B');
 let bGen9 = document.getElementById('gen9B');
 
+// - Settings -
+let backgroundBtn = document.getElementById('backgroundBtn');
+let backgroundIMG = document.getElementById('background');
+backgroundIMG.className = "backgroundCSS";
+
+backgroundBtn.addEventListener('click', function(e){
+    backgroundIMG.className = "backgroundCSS2";
+});
+let cardBtn = document.getElementById('cardBtn');
+
+let grassCard = document.getElementById('vCard');
+grassCard.className = 'grass-bg2 ' + 'card ' + 'h-100';
+
+let fireCard = document.getElementById('cCard');
+fireCard.className = 'fire-bg2 ' + 'card ' + 'h-100';
+
+let waterCard = document.getElementById('bCard');
+waterCard.className = 'water-bg2 '  + 'card ' + 'h-100';
+
+cardBtn.addEventListener('click', function(e){
+    grassCard.className = 'grass-bg ' + 'card ' + 'h-100';
+    fireCard.className = 'fire-bg ' + 'card ' + 'h-100';
+    waterCard.className = 'water-bg '  + 'card ' + 'h-100';
+});
+
+
+
 // -- Venusaur --
 VenusaurDefault.addEventListener('mouseover', function(e){
     document.getElementById('VenusaurCard');

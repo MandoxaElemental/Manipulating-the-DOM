@@ -3,10 +3,15 @@
     src: url(/assets/fonts/Kabel\ Ultra\ BT.ttf);
 }
 
-body{
+.backgroundCSS{
     background-image: url(/assets/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.backgroundCSS2{
+    background-image: url(/assets/max-raid-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 p{
@@ -77,6 +82,26 @@ background-size: cover;
     background-image: url(/assets/WaterBG.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.grass-bg2{
+background-image: url(/assets/grass_pokemon_energy_wallpaper_by_elbarnzo_d755hbj-fullview.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+}
+
+.fire-bg2{
+    background-image: url(/assets/fire_pokemon_energy_wallpaper_by_elbarnzo_d7519pz-fullview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.water-bg2{
+    background-image: url(/assets/water_pokemon_energy_wallpaper_by_elbarnzo_d75ebft-fullview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
 }
 .card{
     padding-bottom: 10px;

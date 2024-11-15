@@ -9,14 +9,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="shortcut icon" href="./assets/CharizarditeY.png" />
   </head>
-<body>
+<body id="background">
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Starters - Gen 1</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Settings</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li id="backgroundBtn" class="nav-item">
+              <a class="nav-link" href="#">Change Main Background</a>
+            </li>
+            <li id="cardBtn" class="nav-item">
+              <a class="nav-link" href="#">Change Card Backgrounds</a>
+            </li>
+        </div>
+      </div>
+    </div>
+  </nav>
     <div class="container pt-5 pb-5">
         <div class="row">
             <div class="col">
 
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                      <div class="card h-100 grass-bg">
+                      <div id="vCard" class="card h-100">
                         <div id="venusaur-default" class="card-header">
                           <h5 class="card-title">Venusaur</h5>
                         </div>
@@ -61,7 +87,7 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card h-100 fire-bg">
+                      <div id="cCard" class="card h-100">
                         <div id="charizard-default" class="card-header">
                           <h5 class="card-title">Charizard</h5>
                         </div>
@@ -107,7 +133,7 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card h-100 water-bg">
+                      <div id="bCard" class="card h-100">
                         <div id="blastoise-default" class="card-header">
                           <h5 class="card-title">Blastoise</h5>
                         </div>
