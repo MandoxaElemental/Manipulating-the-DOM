@@ -237,7 +237,7 @@ vGen5.addEventListener('mouseover', function(e){
 vGen6.addEventListener('mouseover', function(e){
     document.getElementById('VenusaurCard');
     VenusaurCard.className = "pulse";
-    document.getElementById('VenusaurCard').src="../assets/Venusaur/VenusaurGen6.png";
+    document.getElementById('VenusaurCard').src="../assets/Venusaur/VenusaurGen6.gif";
     VenusaurDex.innerText = venusaurDex[5];
     VenusaurAbility.innerText = "Ability: Chlorophyll";
     VenusaurMove.innerText = ""
@@ -381,7 +381,7 @@ cGen5.addEventListener('mouseover', function(e){
 cGen6.addEventListener('mouseover', function(e){
     document.getElementById('CharizardCard');
     CharizardCard.className = "pulse";
-    document.getElementById('CharizardCard').src="../assets/Charizard/CharizardGen6.png";
+    document.getElementById('CharizardCard').src="../assets/Charizard/CharizardGen6.gif";
     CharizardDex.innerText = charizardDex[5];
     CharizardAbility.innerText = "Ability: Solar Power";
     CharizardMove.innerText = ""
@@ -517,7 +517,7 @@ bGen5.addEventListener('mouseover', function(e){
 bGen6.addEventListener('mouseover', function(e){
     document.getElementById('BlastoiseCard');
     BlastoiseCard.className = "pulse";
-    document.getElementById('BlastoiseCard').src="../assets/Blastoise/BlastoiseGen6.png";
+    document.getElementById('BlastoiseCard').src="../assets/Blastoise/BlastoiseGen6.gif";
     BlastoiseDex.innerText = blastoiseDex[5];
     BlastoiseAbility.innerText = "Ability: Rain Dish";
     BlastoiseMove.innerText = ""
