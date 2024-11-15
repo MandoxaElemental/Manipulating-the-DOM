@@ -29,6 +29,27 @@ p{
     background-color: rgba(255, 255, 255, 0.498);
     border-radius: 100px;
 }
+.card-title-v{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(152,208,228, 0.498);
+    border-radius: 100px;
+}
+
+.card-title-c{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(251,200,124, 0.498);
+    border-radius: 100px;
+}
+
+.card-title-b{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(93,177,215, 0.498);
+    border-radius: 100px;
+}
+
 
 .generations{
     font-size: 20px;
@@ -56,6 +77,24 @@ img{
 
 .box{
     background-color: rgba(255, 255, 255, 0.498);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.box-v{
+    background-color: rgba(152,208,228, 0.498);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.box-c{
+    background-color: rgba(251,200,124, 0.498);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.box-b{
+    background-color: rgba(93,177,215, 0.498);
     padding: 10px;
     margin: 5px;
     border-radius: 10px;

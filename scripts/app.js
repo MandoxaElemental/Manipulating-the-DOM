@@ -167,6 +167,47 @@ fontBtn.addEventListener('click', function(e){
     newFont.className = 'newfont';
 })
 
+let boxBtn = document.getElementById('boxBtn');
+let vTitle = document.getElementById('vTitle')
+vTitle.className = 'card-title'
+let cTitle = document.getElementById('cTitle')
+cTitle.className = 'card-title'
+let bTitle = document.getElementById('bTitle')
+bTitle.className = 'card-title'
+
+let vBox1 = document.getElementById('vBox1');
+vBox1.className = 'box';
+let vBox2 = document.getElementById('vBox2');
+vBox2.className = 'box';
+let cBox1 = document.getElementById('cBox1');
+cBox1.className = 'box';
+let cBox2 = document.getElementById('cBox2');
+cBox2.className = 'box';
+let bBox1 = document.getElementById('bBox1');
+bBox1.className = 'box';
+let bBox2 = document.getElementById('bBox2');
+bBox2.className = 'box';
+
+    boxBtn.addEventListener('click', function(e){
+    vTitle.className = 'card-title-v'
+    cTitle.className = 'card-title-c'
+    bTitle.className = 'card-title-b'
+    vBox1.className = 'box-v';
+    vBox2.className = 'box-v';
+    cBox1.className = 'box-c';
+    cBox2.className = 'box-c';
+    bBox1.className = 'box-b';
+    bBox2.className = 'box-b';
+    });
+
+let barrelRoll = document.getElementById('dabrBtn');
+    barrelRoll.addEventListener('click', function(e){
+        VenusaurCard.className = "barrelRoll"
+        CharizardCard.className = "barrelRoll"
+        BlastoiseCard.className = "barrelRoll"
+        barrelRoll.innerText = "Disabled";
+    })
+
 let funBtn = document.getElementById('funBTN')
 
     funBtn.addEventListener('click', function(e){
