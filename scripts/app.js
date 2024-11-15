@@ -167,6 +167,13 @@ fontBtn.addEventListener('click', function(e){
     newFont.className = 'newfont';
 })
 
+let funBtn = document.getElementById('funBTN')
+
+    funBtn.addEventListener('click', function(e){
+        funBtn.innerText = "Bye"
+        funBtn.className = 'zoomerOut';
+    })
+
 
 
 // -- Venusaur --
